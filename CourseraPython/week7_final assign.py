@@ -1,8 +1,8 @@
 # Select the expression(s) that evaluate to an int value.
-#8.0 % 4
+# 8.0 % 4
 8 + 3
 8 % 6
-#7 + 8.5
+# 7 + 8.5
 
            #----------------------------------------------
 

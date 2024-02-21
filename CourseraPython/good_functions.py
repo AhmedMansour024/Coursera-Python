@@ -50,36 +50,34 @@ def make_pairs(list1, list2):
     '''
     pairs = []
     #CODE MISSING HERE
-    #inner_list = []
-
+    inner_list = []
     for i in range(len(list1)):              #<-----
         pairs.append([list1[i], list2[i]])
 
-
-    # inner_list = []
-    # for i in range(len(list1)):
-    #     inner_list.append(list1[i])
-    #     inner_list.append(list2[i])
-    #     pairs.append(inner_list)
+    inner_list = []
+    for i in range(len(list1)):
+        inner_list.append(list1[i])
+        inner_list.append(list2[i])
+        pairs.append(inner_list)
     
-    # for i in range(len(list1)):
-    #     inner_list = []
-    #     inner_list.append(list1[i])
-    #     inner_list.append(list2[i])
-    # pairs.append(inner_list)
+    for i in range(len(list1)):
+        inner_list = []
+        inner_list.append(list1[i])
+        inner_list.append(list2[i])
+    pairs.append(inner_list)
 
-#     for i in range(len(list1)):            #<----
-#         inner_list = []
-#         inner_list.append(list1[i])
-#         inner_list.append(list2[i])
-#         pairs.append(inner_list)
+    for i in range(len(list1)):            #<----
+        inner_list = []
+        inner_list.append(list1[i])
+        inner_list.append(list2[i])
+        pairs.append(inner_list)
 
     return pairs
 
 print(make_pairs(['A', 'B', 'C'], [1, 2, 3]))
 
                 #-----------------------------------
-from "/Coursera Python\week6 assign_2\a3.py" import make_str_from_row
+from CourseraPython.week6_assign_2.a3 import make_str_from_row
 
 
 def make_list_from_rows(board):
